@@ -5,7 +5,7 @@ import axios from 'axios';
 import styles from '../styles/page.css';
 import logo from '../assets/logo.svg'
 
-const baseURL = 'http://127.0.0.1:8000/api/auth/login'
+const baseURL = 'http://127.0.0.1:8000/api/auth/login/'
 
 const LogIn = () => {
   const [form, setForm] = useState({'email':'', 'password':''})
@@ -20,11 +20,7 @@ const LogIn = () => {
     console.log(`The name you entered was: ${JSON.stringify(form)}`)
     console.log(form)
 
-    const headers = {
-      'Access-Control-Allow-Origin': '*'
-    }
-
-    let resp = await axios.post(baseURL, form, {headers: headers})
+    let resp = await axios.post(baseURL, form)
     console.log(resp.data)
     console.log(resp.headers)
     
