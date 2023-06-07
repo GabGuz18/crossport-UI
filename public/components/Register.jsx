@@ -55,11 +55,7 @@ const Register = () => {
     console.log(`The name you entered was: ${JSON.stringify(form)}`)
     console.log(form)
 
-    const headers = {
-      'Access-Control-Allow-Origin': '*'
-    }
-
-    axios.create(baseURL, form, {headers:headers})
+    axios.create(baseURL, form)
       .then((response) => console.log(response.data))
       .catch((error) => console.log(error.data))
 
