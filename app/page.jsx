@@ -45,7 +45,7 @@ const Page = () => {
       </nav>
       <section className="banner">
         <div className="banner-content">
-          <h2>Hi, I'm Peter</h2>
+          <h2>Hi, Im Peter</h2>
           <h3>Frontend Developer</h3>
           <div className="Buttons">
             <Link className="Sign" href={'/login'}>Sign In</Link>
