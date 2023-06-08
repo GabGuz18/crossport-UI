@@ -47,7 +47,7 @@ const Register = () => {
       getStrength(value)
     }
     setForm((prevForm) => ({...prevForm, [name]:value}))
-   
+
   }
 
   const handleSubmit = async (event) => {
@@ -55,9 +55,22 @@ const Register = () => {
     console.log(`The name you entered was: ${JSON.stringify(form)}`)
     console.log(form)
 
-    axios.create(baseURL, form)
-      .then((response) => console.log(response.data))
-      .catch((error) => console.log(error.data))
+    const options ={
+      method: 'POST',
+      body: JSON.stringify(form),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }
+
+    fetch(baseURL, options)
+      .then(res => res.json())
+      .then(response => console.log(response))
+      .catch(error => console.log(error))
+
+    // axios.create(baseURL, form)
+    //   .then((response) => console.log(response.data))
+    //   .catch((error) => console.log(error.data))
 
   }
 
@@ -67,7 +80,7 @@ const Register = () => {
         {/* <Image src={logo} alt='logo'/> */}
         <h2>Sign Up</h2>
         <form className="login-form" onSubmit={handleSubmit}>
-        
+
           <input
             autoComplete="off"
             spellCheck="false"
