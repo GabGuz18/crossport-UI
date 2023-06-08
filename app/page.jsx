@@ -15,7 +15,7 @@ import es6 from "../public/assets/es6.png";
 import react from "../public/assets/react.png";
 import logo2 from "../public/assets/logo2.svg";
 
-const page = () => {
+const Page = () => {
 
   const containerRef = useRef();
   useEffect(() => {
