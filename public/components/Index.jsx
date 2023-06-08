@@ -9,11 +9,11 @@ import { ScrollTrigger } from "gsap/all";
 
 import style from "../styles/paralax.css";
 
-import html from "..assets/html.png";
-import css from "..assets/css.png";
-import es6 from "..assets/es6.png";
-import react from "..assets/react.png";
-import logo2 from "..assets/logo2.svg";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import es6 from "../assets/es6.png";
+import react from "../assets/react.png";
+import logo2 from "../assets/logo2.svg";
 
 const Index = () => {
     const containerRef = useRef();
