@@ -20,15 +20,27 @@ const LogIn = () => {
     console.log(`The name you entered was: ${JSON.stringify(form)}`)
     console.log(form)
 
-    let resp = await axios.post(baseURL, form)
-    console.log(resp.data)
-    console.log(resp.headers)
-    
+    const options = {
+      method: 'POST',
+      body: JSON.stringify(form),
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    }
+
+    fetch(baseURL, options)
+      .then(res => res.json())
+      .then(response => {
+        console.log(response)
+        console.log(response.token)
+        localStorage.setItem('token',response.token)
+      })
+      .catch(error => console.log(error))
   }
 
   return (
     <div className='slide-bottom'>
-      
+
       <div className={`login-card`}>
         <h2>Sign In</h2>
         <form className="login-form" onSubmit={handleSubmit}>

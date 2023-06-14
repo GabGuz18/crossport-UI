@@ -1,4 +1,3 @@
-import React from 'react'
 import LogIn from '@/public/components/LogIn'
 
 const Page = () => {

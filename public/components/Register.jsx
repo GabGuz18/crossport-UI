@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import axios from 'axios';
 
 import '../styles/page.css';
@@ -67,10 +68,6 @@ const Register = () => {
       .then(res => res.json())
       .then(response => console.log(response))
       .catch(error => console.log(error))
-
-    // axios.create(baseURL, form)
-    //   .then((response) => console.log(response.data))
-    //   .catch((error) => console.log(error.data))
 
   }
 
