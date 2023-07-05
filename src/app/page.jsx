@@ -1,10 +1,9 @@
-import Link from "next/link"
 
 const Home = () => {
   return (
     <div>
-      <Link href={"/login"}>
-      Login
+      <Link href={"/Login"}>
+      Login1
       </Link>
     </div>
     

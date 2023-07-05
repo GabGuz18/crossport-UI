@@ -1,8 +1,13 @@
 import React from 'react'
+import Link from "next/link"
 
 export const Login = () => {
   return (
+    
     <div className="limiter">
+      <div>
+        <Link rel="stylesheet" href="./loginStyles.css"></Link>
+      </div>
         <div className="container-login100">
           <div className="wrap-login100 p-t-50 p-b-90">
             {/* Form Login*/}
@@ -49,8 +54,6 @@ export const Login = () => {
             </form>
           </div>
         </div>
-      <h1>Hola</h1>
-      <Link href='/login'>Login</Link>
     </div>
   )
 }
