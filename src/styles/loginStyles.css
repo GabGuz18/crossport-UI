@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+
+  line-height: 3;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* Otros estilos que desees aplicar */
+}
+
+/* Estilos para el contenedor principal */
+.limiter {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo de card para ontenedor de Login 
+.container-login100 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  width: 100%;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+*/
+/*Container horizontal que contiene el Login*/
+.container-login100 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+background-color: #a4d1fc;
+}
+
+.container-login100 .wrap-login100 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 690px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.login100-form-title {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+}
+
+.p-t-50 {
+  padding-top: 50px;
+}
+
+/* Input de Username y */
+.input100 {
+  width: 80%;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input100:focus {
+  outline: none;
+  border-color: #ff6600;
+}
+
+.focus-input100 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff6600;
+  transition: width 0.4s;
+}
+
+.wrap-input100.validate-input .input100:focus + .focus-input100 {
+  width: 100%;
+}
+
+.flex-sb {
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-sb-m {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.contact100-form-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.label-checkbox {
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+}
+
+/* Estilos para los textos */
+.txt1 {
+  font-size: 14px;
+  color: #ff6600;
+  text-decoration: none;
+}
+/* Hover para olvidaste contraseña */
+.txt1:hover {
+  text-decoration: underline;
+}
+
+.container-login100-form-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.login100-form-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login100-form-btn:hover {
+  background-color: #e55e00;
+}
+
+.additional-blocks {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
