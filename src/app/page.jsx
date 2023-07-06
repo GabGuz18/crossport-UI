@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Hola</h1>
-      <Link href={"/Login"}>
+      <Link href={"/login"}>
         Login1
       </Link>
     </div>
