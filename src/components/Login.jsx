@@ -1,17 +1,15 @@
 import React from 'react'
-import Link from "next/link"
+import '../styles/loginStyles.css'
 
 export const Login = () => {
   return (
     
     <div className="limiter">
-      <div>
-        <Link rel="stylesheet" href="./loginStyles.css"></Link>
-      </div>
         <div className="container-login100">
           <div className="wrap-login100 p-t-50 p-b-90">
             {/* Form Login*/}
             <form className="login100-form validate-form flex-sb flex-w">
+            <img className="image" src="../images/crossport_logo.png"/>
               <span className="login100-form-title p-b-51">Login</span>
               {/* Falta lo de validate   Login Username*/}
               <div className="wrap-input100 validate-input m-b-16">
