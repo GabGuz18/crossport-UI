@@ -1,0 +1,64 @@
+.part-1 {
+    height: 100vh;
+    background-color: #444648;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 45%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.button {
+    background-color: red;
+    width: 45%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.button:visited {
+    text-decoration: none;
+}
+
+.part-2 {
+    height: 100vh;
+    background-color: red;
+}
+
+.part-3 {
+    height: 100vh;
+    background-color: green;
+}
+
+.part-4 {
+    height: 100vh;
+    background-color: gray;
+}
+
+.part-5 {
+    height: 100vh;
+    background-color: yellow;
+}
+
+h2, h4 {
+    margin: 0;
+}
