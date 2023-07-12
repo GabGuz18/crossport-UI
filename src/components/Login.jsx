@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import '../styles/loginStyles.css'
+import ic from '@/images/ic_bg.png'
 
 export const Login = () => {
   return (
