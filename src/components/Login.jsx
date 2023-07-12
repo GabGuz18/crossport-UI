@@ -12,7 +12,7 @@ export const Login = () => {
             <form className="login100-form validate-form flex-sb flex-w">
              {/*
             <img className="image" src="../images/ic_bg.png"/> */}
-            <img src="/images/ic_bg.png" alt="Descripción de la imagen" />
+            <Image src="/images/ic_bg.png" alt="Descripción de la imagen" />
               <span className="login100-form-title p-b-51">Crossport</span> 
               
               <h1>"Conectando equipos y uniendo Pasiones": Reserva y juega</h1>
