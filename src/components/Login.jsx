@@ -9,8 +9,12 @@ export const Login = () => {
           <div className="wrap-login100 p-t-50 p-b-90">
             {/* Form Login*/}
             <form className="login100-form validate-form flex-sb flex-w">
-            <img className="image" src="../images/crossport_logo.png"/>
-              <span className="login100-form-title p-b-51">Login</span>
+             {/*
+            <img className="image" src="../images/ic_bg.png"/> */}
+            <img src="/images/ic_bg.png" alt="Descripción de la imagen" />
+              <span className="login100-form-title p-b-51">Crossport</span> 
+              
+              <h1>"Conectando equipos y uniendo Pasiones": Reserva y juega</h1>
               {/* Falta lo de validate   Login Username*/}
               <div className="wrap-input100 validate-input m-b-16">
                 <input className="input100" type="text" name="username" placeholder="Username"/>

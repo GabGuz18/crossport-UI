@@ -13,6 +13,14 @@ body {
   /* Otros estilos que desees aplicar */
 }
 
+
+.container-login100 {
+  /* Resto de los estilos... */
+  background-image: url("../images/ic_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
 /* Estilos para el contenedor principal */
 .limiter {
   justify-content: center;
@@ -38,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
 
-background-color: #a4d1fc;
+  background-color: #a4d1fc;
 }
 
 .container-login100 .wrap-login100 {
@@ -54,7 +62,7 @@ background-color: #a4d1fc;
   font-size: 34px;
   font-weight: bold;
   text-align: center;
-  color: #333333;
+  color: #ffffff;
 }
 
 .p-t-50 {
@@ -108,7 +116,7 @@ background-color: #a4d1fc;
 
 .label-checkbox {
   font-size: 14px;
-  color: #666666;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -139,6 +147,8 @@ background-color: #a4d1fc;
   text-transform: uppercase;
   border-radius: 5px;
   cursor: pointer;
+  height: 50px;
+  width: 350px;
 }
 
 .login100-form-btn:hover {
