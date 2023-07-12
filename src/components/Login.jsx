@@ -1,8 +1,7 @@
 import React from 'react'
-import Image from "next/image"
 import '../styles/loginStyles.css'
-import ic from '@/images/ic_bg.png'
-
+import Image from "next/image"
+import logo from '@/images/crossport_logo.png'
 export const Login = () => {
   return (
     
@@ -13,7 +12,9 @@ export const Login = () => {
             <form className="login100-form validate-form flex-sb flex-w">
              {/*
             <img className="image" src="../images/ic_bg.png"/> */}
-            <Image src="/images/ic_bg.png" alt="Descripción de la imagen" />
+            <Image src={logo} alt="Background Image"
+              width={90}
+              height={90}></Image>
               <span className="login100-form-title p-b-51">Crossport</span> 
               
               <h1>"Conectando equipos y uniendo Pasiones": Reserva y juega</h1>
